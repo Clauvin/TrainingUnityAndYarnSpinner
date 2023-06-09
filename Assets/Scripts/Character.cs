@@ -31,6 +31,7 @@ public class Character : MonoBehaviour {
     }
 
     // moves character to location {location}>{markerName} in the scene
+    [YarnCommand("place")]
     public void Move(Location location, string markerName) {
         Transform destination = location.GetMarkerWithName(markerName);
         if (destination != null) {
