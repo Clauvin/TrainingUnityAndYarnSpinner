@@ -11,8 +11,25 @@ ScriptedImporter:
   sourceScripts:
   - {fileID: 6391573757903218779, guid: 56b97e6183acb41458112f986cc44308, type: 3}
   - {fileID: 6391573757903218779, guid: 12f224c70c576474288b5f66d4b81401, type: 3}
+  - {fileID: 6391573757903218779, guid: 0f8bfc7b3f11ee04e86a087027a8becf, type: 3}
   compileErrors: []
-  serializedDeclarations: []
+  serializedDeclarations:
+  - name: $shapes_like_you
+    typeName: Bool
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: Implicitly declared in SecondYarnScript.yarn, node SecondYarnScript
+    isImplicit: 1
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: 12f224c70c576474288b5f66d4b81401, type: 3}
+  - name: $name
+    typeName: String
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: Implicitly declared in SecondYarnScript.yarn, node SecondYarnScript
+    isImplicit: 1
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: 12f224c70c576474288b5f66d4b81401, type: 3}
   defaultLanguage: pt-BR
   languagesToSourceAssets: []
   useAddressableAssets: 0
